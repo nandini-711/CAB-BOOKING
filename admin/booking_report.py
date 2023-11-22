@@ -11,7 +11,7 @@ class BookingReport():
         self.main=main
         customtkinter.set_appearance_mode('dark')
         customtkinter.set_default_color_theme('blue')
-        self.main.iconbitmap("C:\\Users\\KIIT\\OneDrive\\Documents\\cme project\\Cab-Booking-System\\Images\\logo.ico")
+        self.main.iconbitmap("C:\\Users\\KIIT\\OneDrive\\Documents\\cme project\\Cab-Booking-System\\Images\\logo.png")
         self.main.title("Taxi Booking System | Booking Report")
         self.main.resizable(0, 0)
         frame_width = 900
