@@ -33,7 +33,7 @@ class Driver_Dashboard():
         self.main.title("Driver Dashboard | Welcome {}".format(Global.currentDriver[1]))
         self.main.state('zoomed')
         self.main.bind('<Escape>', lambda e: main.destroy())
-        self.main.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.ico")
+        self.main.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.png")
 
         # Font Collection
         titlefont = customtkinter.CTkFont(family='Times New Roman', size=30, weight='bold')
@@ -103,7 +103,7 @@ class Driver_Dashboard():
             xCordinate = int((myscreenwidth / 2) - (width / 2))
             yCordinate = int((myscreenheight / 2) - (height / 2))
             root.geometry('{}x{}+{}+{}'.format(width, height, xCordinate + 100, yCordinate))
-            root.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.ico")
+            root.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.png")
             root.resizable(0,0)
 
             assignbookingFrame=customtkinter.CTkFrame(root, width=400, corner_radius=20)
@@ -256,7 +256,7 @@ class Driver_Dashboard():
         def change_password_gui():
             password=customtkinter.CTkToplevel()
             password.title("Cab Booking System | Change {} Password".format(Global.currentDriver[1]))
-            password.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.ico")
+            password.iconbitmap("C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System\Images\logo.png")
             frame_width = 530
             frame_height = 400
             password.resizable(0, 0)
