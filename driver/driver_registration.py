@@ -26,7 +26,7 @@ class DriverRegistration():
         # Center Window in to screen
         self.driver.geometry('{}x{}+{}+{}'.format(myWidth, myHeight, xCordinate+200, yCordinate))
         # Set Icon in window
-        self.driver.iconbitmap('C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System-master\Images\logo.icon.png')
+        self.driver.iconbitmap('C:\\Users\KIIT\OneDrive\Documents\cme project\Cab-Booking-System-master\Images\logo.png')
 
 
         # font
