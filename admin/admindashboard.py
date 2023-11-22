@@ -36,7 +36,7 @@ class AdminDashboard(customtkinter.CTk):
         self.main.minsize(screen_width, screen_height)
         self.main.title("Cab-Booking-System Admin Dashboard")
         self.main.state('zoomed')
-        self.main.iconbitmap("C://Users//KIIT//OneDrive//Documents//cme project//Cab-Booking-System//Images//logo.ico")
+        self.main.iconbitmap("C://Users//KIIT//OneDrive//Documents//cme project//Cab-Booking-System//Images//logo.png")
 
         # Font Collection
         titlefont = customtkinter.CTkFont(family='Times New Roman', size=35, weight='normal')
